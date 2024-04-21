@@ -158,7 +158,7 @@ function App() {
                       value={Address || ""}
                       onChange={(e) => handleInputValidationAddress(e.target)}
                       id="Address"
-                      rows="1"
+                      rows="3"
                     ></textarea>
                   </div>
                   {isAddressInvalid && (
@@ -187,7 +187,7 @@ function App() {
 
                   <div>
                     <label for="Email" className="form-label mt-2 ">
-                      * Email address
+                      * Email Address
                     </label>
                     <input
                       type="email"
@@ -223,7 +223,7 @@ function App() {
 
                   <div>
                     <label className="form-label mt-2">* Gender</label>
-                    <div className="d-flex">
+                    <div className="d-sm-flex">
                       <div className="form-check me-4">
                         <input
                           className="form-check-input"
@@ -299,8 +299,8 @@ function App() {
                         isMobileInvalid ||
                         FormNotCompleted
                       }
-                      style={{ width: "100%", height: "70px" }}
-                      className="bg-info rounded-5"
+                      style={{ width: "100%", }}
+                      className="bg-info rounded-5 p-2"
                       variant="contained"
                       onClick={handleShow}
                     >
@@ -308,8 +308,8 @@ function App() {
                     </BButton>
                     <BButton
                       type="button"
-                      className="btn btn-primary rounded-5"
-                      style={{ width: "100%", height: "70px" }}
+                      className="btn btn-primary rounded-5 p-2"
+                      style={{ width: "100%",  }}
                       variant="outlined"
                       onClick={handleReset}
                     >
