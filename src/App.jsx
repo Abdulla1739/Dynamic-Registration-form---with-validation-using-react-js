@@ -144,7 +144,7 @@ function App() {
                     />
                   </div>
                   {isFullnameInvalid && (
-                    <small className="form-text text-muted">
+                    <small className="form-text text-primary">
                       Please Enter a Valid Name!!!
                     </small>
                   )}
@@ -162,7 +162,7 @@ function App() {
                     ></textarea>
                   </div>
                   {isAddressInvalid && (
-                    <small className="form-text text-muted">
+                    <small className="form-text text-primary">
                       Please Enter a Valid Address!!!
                     </small>
                   )}
@@ -180,7 +180,7 @@ function App() {
                     />
                   </div>
                   {isMobileInvalid && (
-                    <small className="form-text text-muted">
+                    <small className="form-text text-primary">
                       Please Enter a Valid Mobile Number!!!
                     </small>
                   )}
@@ -199,7 +199,7 @@ function App() {
                     />
                   </div>
                   {isEmailInvalid && (
-                    <small className="form-text text-muted mb-2">
+                    <small className="form-text text-primary">
                       Please Enter a Valid Email Id!!!
                     </small>
                   )}
