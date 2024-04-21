@@ -120,7 +120,7 @@ function App() {
         <div className="col-10 ">
           <div className="container  shadow border rounded">
             <div>
-              <img className="w-25" src={logo} alt="banner" />
+              <img style={{width:"250px"}} src={logo} alt="banner" />
             </div>
             <h4 className="text-center pt-1 pb-1 text-primary-emphasis fw-bolder fs-4">
               STUDENT REGISTRATION PORTAL
@@ -300,7 +300,7 @@ function App() {
                         FormNotCompleted
                       }
                       style={{ width: "100%", }}
-                      className="bg-info rounded-5 p-2"
+                      className="bg-info rounded-5 p-2 fw-bolder"
                       variant="contained"
                       onClick={handleShow}
                     >
@@ -308,7 +308,7 @@ function App() {
                     </BButton>
                     <BButton
                       type="button"
-                      className="btn btn-primary rounded-5 p-2"
+                      className="btn btn-primary rounded-5 p-2 fw-bolder"
                       style={{ width: "100%",  }}
                       variant="outlined"
                       onClick={handleReset}
