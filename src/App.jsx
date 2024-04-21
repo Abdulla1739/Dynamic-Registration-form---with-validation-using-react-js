@@ -113,7 +113,7 @@ function App() {
   const FormNotCompleted = (!gender || !Date || selectedCourses.length === 0);
 
   return (
-    <div className=" py-1">
+    <div className=" py-3">
       <div></div>
       <div className="row">
         <div className="col"></div>
