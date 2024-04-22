@@ -110,7 +110,7 @@ function App() {
     setIsmobileInvalid(false);
     setIsEmailInvalid(false);
   };
-  const FormNotCompleted = (!gender || !Date || selectedCourses.length === 0);
+
 
   return (
     <div className=" py-3">
@@ -297,7 +297,9 @@ function App() {
                         isEmailInvalid ||
                         isFullnameInvalid ||
                         isMobileInvalid ||
-                        FormNotCompleted
+                        !gender ||
+                        !Date ||
+                        selectedCourses.length === 0
                       }
                       style={{ width: "100%", }}
                       className="bg-info rounded-5 p-2 fw-bolder"
